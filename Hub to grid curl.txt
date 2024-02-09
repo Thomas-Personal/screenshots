@@ -1,0 +1,41 @@
+root@aks-agentpool-16796812-vmss000001:/# curl -v 10.244.0.12:4442
+*   Trying 10.244.0.12:4442...
+* Connected to 10.244.0.12 (10.244.0.12) port 4442 (#0)
+> GET / HTTP/1.1
+> Host: 10.244.0.12:4442
+> User-Agent: curl/7.81.0
+> Accept: */*
+>
+* Received HTTP/0.9 when not allowed
+* Closing connection 0
+curl: (1) Received HTTP/0.9 when not allowed
+root@aks-agentpool-16796812-vmss000001:/# curl -v 10.244.0.12:4443
+*   Trying 10.244.0.12:4443...
+* Connected to 10.244.0.12 (10.244.0.12) port 4443 (#0)
+> GET / HTTP/1.1
+> Host: 10.244.0.12:4443
+> User-Agent: curl/7.81.0
+> Accept: */*
+>
+* Received HTTP/0.9 when not allowed
+* Closing connection 0
+curl: (1) Received HTTP/0.9 when not allowed
+root@aks-agentpool-16796812-vmss000001:/# curl -v 10.244.0.12:4444
+*   Trying 10.244.0.12:4444...
+* Connected to 10.244.0.12 (10.244.0.12) port 4444 (#0)
+> GET / HTTP/1.1
+> Host: 10.244.0.12:4444
+> User-Agent: curl/7.81.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 302 Found
+< content-length: 0
+< location: /ui
+< x-envoy-upstream-service-time: 0
+< date: Thu, 08 Feb 2024 03:48:29 GMT
+< server: istio-envoy
+< x-envoy-decorator-operation: selenium-hub.default.svc.cluster.local:4444/*
+<
+* Connection #0 to host 10.244.0.12 left intact
+root@aks-agentpool-16796812-vmss000001:/#

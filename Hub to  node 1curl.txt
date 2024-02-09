@@ -1,0 +1,19 @@
+root@aks-agentpool-16796812-vmss000000:/# curl -v http://10.244.1.10:5555
+*   Trying 10.244.1.10:5555...
+* Connected to 10.244.1.10 (10.244.1.10) port 5555 (#0)
+> GET / HTTP/1.1
+> Host: 10.244.1.10:5555
+> User-Agent: curl/7.81.0
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 404 Not Found
+< content-length: 131
+<
+{
+  "value": {
+    "error": "unknown command",
+    "message": "Unable to find handler for (GET) \u002f",
+    "stacktrace": ""
+  }
+* Connection #0 to host 10.244.1.10 left intact
