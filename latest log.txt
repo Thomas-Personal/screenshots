@@ -1,0 +1,133 @@
+Started Selenium Hub 4.16.1 (revision 9b4c83354e): http://10.244.0.12:4444
+06:03:01.315 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+06:03:02.446 INFO [GridModel.setAvailability] - Switching Node d37ac912-e3ff-4a78-af53-91cef091c4c1 (uri: http://10.244.1.8:5555) from DOWN to UP
+06:03:02.451 INFO [LocalDistributor.add] - Added node d37ac912-e3ff-4a78-af53-91cef091c4c1 at http://10.244.1.8:5555. Health check every 120s
+18:47:30.660 INFO [GridModel.setAvailability] - Switching Node d37ac912-e3ff-4a78-af53-91cef091c4c1 (uri: http://10.244.1.8:5555) from UP to DRAINING
+18:48:05.427 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+18:48:05.903 INFO [GridModel.setAvailability] - Switching Node ff3129a0-9f3f-43d9-a09a-27c17a84ac2b (uri: http://10.244.1.10:5555) from DOWN to UP
+18:48:05.904 INFO [LocalDistributor.add] - Added node ff3129a0-9f3f-43d9-a09a-27c17a84ac2b at http://10.244.1.10:5555. Health check every 120s
+04:51:21.951 INFO [GridModel.setAvailability] - Switching Node ff3129a0-9f3f-43d9-a09a-27c17a84ac2b (uri: http://10.244.1.10:5555) from UP to DRAINING
+04:51:36.692 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+04:51:37.091 INFO [GridModel.setAvailability] - Switching Node c5e25904-3f78-43df-bb00-71f9efb13140 (uri: http://10.244.1.11:6666) from DOWN to UP
+04:51:37.092 INFO [LocalDistributor.add] - Added node c5e25904-3f78-43df-bb00-71f9efb13140 at http://10.244.1.11:6666. Health check every 120s
+04:00:42.968 INFO [GridModel.setAvailability] - Switching Node c5e25904-3f78-43df-bb00-71f9efb13140 (uri: http://10.244.1.11:6666) from UP to DOWN
+04:02:42.964 INFO [GridModel.setAvailability] - Switching Node c5e25904-3f78-43df-bb00-71f9efb13140 (uri: http://10.244.1.11:6666) from UP to DOWN
+04:04:42.968 INFO [GridModel.setAvailability] - Switching Node c5e25904-3f78-43df-bb00-71f9efb13140 (uri: http://10.244.1.11:6666) from UP to DOWN
+04:06:42.970 INFO [GridModel.setAvailability] - Switching Node c5e25904-3f78-43df-bb00-71f9efb13140 (uri: http://10.244.1.11:6666) from UP to DOWN
+04:06:45.003 INFO [GridModel.setAvailability] - Switching Node c5e25904-3f78-43df-bb00-71f9efb13140 (uri: http://10.244.1.11:6666) from DOWN to DRAINING
+04:07:00.217 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+
+
+
+
+04:18:48.747 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://10.244.1.13:6666
+04:18:48.792 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+04:18:48.817 DEBUG [LoggingHandler.channelRead] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ: [id: 0xb10ad68d, L:/10.244.1.13:6666 - R:/127.0.0.6:60583]
+04:18:48.827 DEBUG [LoggingHandler.channelReadComplete] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ COMPLETE
+04:18:48.860 DEBUG [AbstractByteBuf.<clinit>] - -Dio.netty.buffer.checkAccessible: true
+04:18:48.860 DEBUG [AbstractByteBuf.<clinit>] - -Dio.netty.buffer.checkBounds: true
+04:18:48.861 DEBUG [ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2cefe13d
+04:18:48.881 DEBUG [ZlibCodecFactory.<clinit>] - -Dio.netty.noJdkZlibDecoder: false
+04:18:48.882 DEBUG [ZlibCodecFactory.<clinit>] - -Dio.netty.noJdkZlibEncoder: false
+04:18:48.906 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.ratio: 8
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.chunkSize: 32
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.blocking: false
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+04:18:49.018 DEBUG [RequestConverter.channelRead0] - Incoming message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+GET /status HTTP/1.1
+Connection: Upgrade, HTTP2-Settings
+Content-Length: 0
+Host: 10.244.1.13:6666
+HTTP2-Settings: AAEAAEAAAAIAAAABAAMAAABkAAQBAAAAAAUAAEAA
+Upgrade: h2c
+traceparent: 00-a9075927177ee36916f53c2c9338a324-6942621d307259d4-01
+User-Agent: selenium/4.16.1 (java unix)
+04:18:49.021 DEBUG [RequestConverter.channelRead0] - Start of http request: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+GET /status HTTP/1.1
+Connection: Upgrade, HTTP2-Settings
+Content-Length: 0
+Host: 10.244.1.13:6666
+HTTP2-Settings: AAEAAEAAAAIAAAABAAMAAABkAAQBAAAAAAUAAEAA
+Upgrade: h2c
+traceparent: 00-a9075927177ee36916f53c2c9338a324-6942621d307259d4-01
+User-Agent: selenium/4.16.1 (java unix)
+04:18:49.027 DEBUG [RequestConverter.channelRead0] - Incoming message: EmptyLastHttpContent
+04:18:49.028 DEBUG [RequestConverter.channelRead0] - End of http request: EmptyLastHttpContent
+04:18:49.152 DEBUG [SpanWrappedHttpHandler.execute] - Wrapping request. Before OpenTelemetryContext{tracer=io.opentelemetry.sdk.trace.SdkTracer@7b227d8d, context={}, span id=0000000000000000, trace id=00000000000000000000000000000000} and after OpenTelemetryContext{tracer=io.opentelemetry.sdk.trace.SdkTracer@7b227d8d, context={opentelemetry-trace-span-key=SdkSpan{traceId=a9075927177ee36916f53c2c9338a324, spanId=f981c88d94fe6247, parentSpanContext=ImmutableSpanContext{traceId=a9075927177ee36916f53c2c9338a324, spanId=6942621d307259d4, traceFlags=01, traceState=ArrayBasedTraceState{entries=[]}, remote=true, valid=true}, name=node.status, kind=INTERNAL, attributes=AttributesMap{data={random.key=e9bf5b79-1279-4ad6-a417-790c8ef8da28}, capacity=128, totalAddedValues=1}, status=ImmutableStatusData{statusCode=UNSET, description=}, totalRecordedEvents=0, totalRecordedLinks=0, startEpochNanos=1707452329113000000, endEpochNanos=0}}, span id=f981c88d94fe6247, trace id=a9075927177ee36916f53c2c9338a324}
+04:18:49.191 DEBUG [HttpTracing.inject] - Injecting (GET) /status into OpenTelemetrySpan{traceId=a9075927177ee36916f53c2c9338a324,spanId=f981c88d94fe6247} at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler:85
+04:18:49.219 DEBUG [SeleniumSpanExporter$1.lambda$export$4] - SpanData{spanContext=ImmutableSpanContext{traceId=a9075927177ee36916f53c2c9338a324, spanId=f981c88d94fe6247, traceFlags=01, traceState=ArrayBasedTraceState{entries=[]}, remote=false, valid=true}, parentSpanContext=ImmutableSpanContext{traceId=a9075927177ee36916f53c2c9338a324, spanId=6942621d307259d4, traceFlags=01, traceState=ArrayBasedTraceState{entries=[]}, remote=true, valid=true}, resource=Resource{schemaUrl=https://opentelemetry.io/schemas/1.20.0, attributes={service.name="unknown_service:java", telemetry.sdk.language="java", telemetry.sdk.name="opentelemetry", telemetry.sdk.version="1.28.0"}}, instrumentationScopeInfo=InstrumentationScopeInfo{name=default, version=null, schemaUrl=null, attributes={}}, name=node.status, kind=INTERNAL, startEpochNanos=1707452329113000000, endEpochNanos=1707452329216370379, attributes=AttributesMap{data={http.method=GET, span.kind=server, http.target=/status, http.status_code=200, random.key=e9bf5b79-1279-4ad6-a417-790c8ef8da28}, capacity=128, totalAddedValues=5}, totalAttributeCount=5, events=[ImmutableEventData{name=HTTP request execution complete, attributes={http.flavor=1, http.handler_class="org.openqa.selenium.remote.http.Route$TemplatizedRoute", http.host="10.244.1.13:6666", http.method="GET", http.request_content_length="0", http.scheme="HTTP", http.status_code=200, http.target="/status", http.user_agent="selenium/4.16.1 (java unix)"}, epochNanos=1707452329215579272, totalAttributeCount=9}], totalRecordedEvents=1, links=[], totalRecordedLinks=0, status=ImmutableStatusData{statusCode=OK, description=Kind: OK Description:}, hasEnded=true}
+04:18:49.225 DEBUG [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "a9075927177ee36916f53c2c9338a324","eventTime": 1707452329215579272,"eventName": "HTTP request execution complete","attributes": {"http.flavor": 1,"http.handler_class": "org.openqa.selenium.remote.http.Route$TemplatizedRoute","http.host": "10.244.1.13:6666","http.method": "GET","http.request_content_length": "0","http.scheme": "HTTP","http.status_code": 200,"http.target": "\u002fstatus","http.user_agent": "selenium\u002f4.16.1 (java unix)"}}
+
+04:18:49.312 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+04:18:49.984 DEBUG [LoggingHandler.channelRead] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ: [id: 0xa77ffe1a, L:/10.244.1.13:6666 - R:/127.0.0.6:37463]
+04:18:49.985 DEBUG [LoggingHandler.channelReadComplete] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ COMPLETE
+04:18:49.993 DEBUG [RequestConverter.channelRead0] - Incoming message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+GET /status HTTP/1.1
+Host: 10.244.1.13:6666
+User-Agent: kube-probe/1.27
+Accept: */*
+Connection: close
+Accept-Encoding: gzip
+
+
+
+
+
+
+////////////////////////////  Node Log
+
+
+
+04:18:48.747 INFO [NodeServer.execute] - Started Selenium node 4.16.1 (revision 9b4c83354e): http://10.244.1.13:6666
+04:18:48.792 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+04:18:48.817 DEBUG [LoggingHandler.channelRead] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ: [id: 0xb10ad68d, L:/10.244.1.13:6666 - R:/127.0.0.6:60583]
+04:18:48.827 DEBUG [LoggingHandler.channelReadComplete] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ COMPLETE
+04:18:48.860 DEBUG [AbstractByteBuf.<clinit>] - -Dio.netty.buffer.checkAccessible: true
+04:18:48.860 DEBUG [AbstractByteBuf.<clinit>] - -Dio.netty.buffer.checkBounds: true
+04:18:48.861 DEBUG [ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2cefe13d
+04:18:48.881 DEBUG [ZlibCodecFactory.<clinit>] - -Dio.netty.noJdkZlibDecoder: false
+04:18:48.882 DEBUG [ZlibCodecFactory.<clinit>] - -Dio.netty.noJdkZlibEncoder: false
+04:18:48.906 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.ratio: 8
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.chunkSize: 32
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.blocking: false
+04:18:48.909 DEBUG [Recycler.<clinit>] - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+04:18:49.018 DEBUG [RequestConverter.channelRead0] - Incoming message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+GET /status HTTP/1.1
+Connection: Upgrade, HTTP2-Settings
+Content-Length: 0
+Host: 10.244.1.13:6666
+HTTP2-Settings: AAEAAEAAAAIAAAABAAMAAABkAAQBAAAAAAUAAEAA
+Upgrade: h2c
+traceparent: 00-a9075927177ee36916f53c2c9338a324-6942621d307259d4-01
+User-Agent: selenium/4.16.1 (java unix)
+04:18:49.021 DEBUG [RequestConverter.channelRead0] - Start of http request: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+GET /status HTTP/1.1
+Connection: Upgrade, HTTP2-Settings
+Content-Length: 0
+Host: 10.244.1.13:6666
+HTTP2-Settings: AAEAAEAAAAIAAAABAAMAAABkAAQBAAAAAAUAAEAA
+Upgrade: h2c
+traceparent: 00-a9075927177ee36916f53c2c9338a324-6942621d307259d4-01
+User-Agent: selenium/4.16.1 (java unix)
+04:18:49.027 DEBUG [RequestConverter.channelRead0] - Incoming message: EmptyLastHttpContent
+04:18:49.028 DEBUG [RequestConverter.channelRead0] - End of http request: EmptyLastHttpContent
+04:18:49.152 DEBUG [SpanWrappedHttpHandler.execute] - Wrapping request. Before OpenTelemetryContext{tracer=io.opentelemetry.sdk.trace.SdkTracer@7b227d8d, context={}, span id=0000000000000000, trace id=00000000000000000000000000000000} and after OpenTelemetryContext{tracer=io.opentelemetry.sdk.trace.SdkTracer@7b227d8d, context={opentelemetry-trace-span-key=SdkSpan{traceId=a9075927177ee36916f53c2c9338a324, spanId=f981c88d94fe6247, parentSpanContext=ImmutableSpanContext{traceId=a9075927177ee36916f53c2c9338a324, spanId=6942621d307259d4, traceFlags=01, traceState=ArrayBasedTraceState{entries=[]}, remote=true, valid=true}, name=node.status, kind=INTERNAL, attributes=AttributesMap{data={random.key=e9bf5b79-1279-4ad6-a417-790c8ef8da28}, capacity=128, totalAddedValues=1}, status=ImmutableStatusData{statusCode=UNSET, description=}, totalRecordedEvents=0, totalRecordedLinks=0, startEpochNanos=1707452329113000000, endEpochNanos=0}}, span id=f981c88d94fe6247, trace id=a9075927177ee36916f53c2c9338a324}
+04:18:49.191 DEBUG [HttpTracing.inject] - Injecting (GET) /status into OpenTelemetrySpan{traceId=a9075927177ee36916f53c2c9338a324,spanId=f981c88d94fe6247} at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler:85
+04:18:49.219 DEBUG [SeleniumSpanExporter$1.lambda$export$4] - SpanData{spanContext=ImmutableSpanContext{traceId=a9075927177ee36916f53c2c9338a324, spanId=f981c88d94fe6247, traceFlags=01, traceState=ArrayBasedTraceState{entries=[]}, remote=false, valid=true}, parentSpanContext=ImmutableSpanContext{traceId=a9075927177ee36916f53c2c9338a324, spanId=6942621d307259d4, traceFlags=01, traceState=ArrayBasedTraceState{entries=[]}, remote=true, valid=true}, resource=Resource{schemaUrl=https://opentelemetry.io/schemas/1.20.0, attributes={service.name="unknown_service:java", telemetry.sdk.language="java", telemetry.sdk.name="opentelemetry", telemetry.sdk.version="1.28.0"}}, instrumentationScopeInfo=InstrumentationScopeInfo{name=default, version=null, schemaUrl=null, attributes={}}, name=node.status, kind=INTERNAL, startEpochNanos=1707452329113000000, endEpochNanos=1707452329216370379, attributes=AttributesMap{data={http.method=GET, span.kind=server, http.target=/status, http.status_code=200, random.key=e9bf5b79-1279-4ad6-a417-790c8ef8da28}, capacity=128, totalAddedValues=5}, totalAttributeCount=5, events=[ImmutableEventData{name=HTTP request execution complete, attributes={http.flavor=1, http.handler_class="org.openqa.selenium.remote.http.Route$TemplatizedRoute", http.host="10.244.1.13:6666", http.method="GET", http.request_content_length="0", http.scheme="HTTP", http.status_code=200, http.target="/status", http.user_agent="selenium/4.16.1 (java unix)"}, epochNanos=1707452329215579272, totalAttributeCount=9}], totalRecordedEvents=1, links=[], totalRecordedLinks=0, status=ImmutableStatusData{statusCode=OK, description=Kind: OK Description:}, hasEnded=true}
+04:18:49.225 DEBUG [SeleniumSpanExporter$1.lambda$export$3] - {"traceId": "a9075927177ee36916f53c2c9338a324","eventTime": 1707452329215579272,"eventName": "HTTP request execution complete","attributes": {"http.flavor": 1,"http.handler_class": "org.openqa.selenium.remote.http.Route$TemplatizedRoute","http.host": "10.244.1.13:6666","http.method": "GET","http.request_content_length": "0","http.scheme": "HTTP","http.status_code": 200,"http.target": "\u002fstatus","http.user_agent": "selenium\u002f4.16.1 (java unix)"}}
+
+04:18:49.312 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+04:18:49.984 DEBUG [LoggingHandler.channelRead] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ: [id: 0xa77ffe1a, L:/10.244.1.13:6666 - R:/127.0.0.6:37463]
+04:18:49.985 DEBUG [LoggingHandler.channelReadComplete] - [id: 0x4021c4e7, L:/0:0:0:0:0:0:0:0:6666] READ COMPLETE
+04:18:49.993 DEBUG [RequestConverter.channelRead0] - Incoming message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+GET /status HTTP/1.1
+Host: 10.244.1.13:6666
+User-Agent: kube-probe/1.27
+Accept: */*
+Connection: close
+Accept-Encoding: gzip
+
+
+
